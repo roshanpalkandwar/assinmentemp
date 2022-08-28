@@ -7,7 +7,7 @@ namespace empassignment
         static void Main(string[] args)
         {
             Console.WriteLine("welecom employee saraly masage");
-            Console.WriteLine("choose option\n 1.check absent present\n2.emp daily wages\n3.empy part time wages\n4.switch lopp ");
+            Console.WriteLine("choose option\n 1.check absent present\n2.emp daily wages\n3.empy part time wages\n4.switch lopp\n5.wages for month ");
             int opt = Convert.ToInt32(Console.ReadLine());
 
 
@@ -25,6 +25,8 @@ namespace empassignment
                     break;
                     case 4:
                     switchloop.loopsatatment();
+                    break;
+                case 5: wagesForMonth.calculateEmplymMonthWages();
                     break;
                     default:
                     break;
